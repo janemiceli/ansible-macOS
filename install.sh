@@ -44,7 +44,7 @@ fi
 
 if ! command -v brew >/dev/null; then
   fancy_echo "Installing Homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install)" </dev/null
 else
   fancy_echo "Homebrew already installed. Skipping."
 fi
@@ -63,7 +63,7 @@ if [ -d "./laptop" ]; then
   rm -rf ./laptop/
 fi
 fancy_echo "Cloning laptop repo ..."
-git clone https://github.com/siyelo/laptop.git 
+git clone https://github.com/janemiceli/macbook-air.git 
 
 fancy_echo "Changing to laptop repo dir ..."
 cd laptop
