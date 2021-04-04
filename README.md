@@ -9,9 +9,9 @@ It can be run multiple times on the same machine safely. It installs, upgrades, 
 
 ## Requirements
 
-We've tested it on;
+I've tested it on:
 
-#* OS X Big Sur
+* OS X Big Sur
 
 
 ## Installation
