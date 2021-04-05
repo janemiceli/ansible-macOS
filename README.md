@@ -60,38 +60,6 @@ As above, download and bootstrap the script. But stop it before it starts ansibl
 
 You can do this as many times as you like and re-run the `ansible-playbook` command. Ansible is smart enough to skip installed apps, so subsequent runs are super fast.
 
-
-## Included Applications / Configuration
-
-### Applications
-
-Apps installed with Homebrew Cask:
-
-  - 1password
-  - google-chrome
-  - sublime-text3 # (experimental cask) | http://www.sublimetext.com/
-  - vagrant # | https://www.vagrantup.com/downloads.html
-  - vagrant-manager # 
-  - virtualbox # | https://www.virtualbox.org/
-  - vlc 
-
-There are several more common cask apps listed in the playbook.yml - simply uncomment them to include them in your install. 
-
-
-### Packages/Utilities 
- 
-Things installed with Homebrew:
-
-  - brew-cask
-  - coreutils # Install GNU core utilities (those that come with OS X are outdated)
-  - docker # | https://docs.docker.com/installation/mac/
-  - findutils  # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-  - git
-
-
-There are several more utils listed in the playbook.yml - simply uncomment them to include them in your install. 
-
-
 ## Development
 
 You shouldn't wipe your entire workstation and start from scratch just to test changes to the playbook. 
