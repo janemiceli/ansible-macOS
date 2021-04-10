@@ -1,8 +1,8 @@
-# Laptop
+# ansible-macOS
 
-Laptop is a playbook to set up an OS X laptop (for Site Reliability Engineering).
+ansible-macOS is a playbook to set up an OS X laptop (for Site Reliability Engineering).
 
-It installs and configures most of the software janemiceli uses on our Macs for work and play. 
+It installs and configures most of the software jane miceli uses on her Macs for work and play. 
 
 It can be run multiple times on the same machine safely. It installs, upgrades, or skips packages based on what is already installed on the machine.
 
